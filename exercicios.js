@@ -24,19 +24,42 @@ const prompt = require('prompt-sync')();
 // Votos válidos: ${percentValidVotes}%`);
 
 /*Exercício 03*/
-const firstNumber = parseInt(prompt("primeiro numero: "));
-const secondNumber = parseInt(prompt("segundo numero: "));
-const thirdNumber = parseInt(prompt("terceiro numero: "));
-let fourthNumber = parseInt(prompt("quarto numero: "));
+// const firstNumber = parseInt(prompt("primeiro numero: "));
+// const secondNumber = parseInt(prompt("segundo numero: "));
+// const thirdNumber = parseInt(prompt("terceiro numero: "));
+// let fourthNumber = parseInt(prompt("quarto numero: "));
 
-const firstResult = firstNumber+25;
-const seconResult = secondNumber*3;
-const thirdResult = thirdNumber*0.12;
-fourthNumber = firstNumber + secondNumber + thirdNumber;
+// const firstResult = firstNumber+25;
+// const seconResult = secondNumber*3;
+// const thirdResult = thirdNumber*0.12;
+// fourthNumber = firstNumber + secondNumber + thirdNumber;
 
-console.log(`
-Primeiro resultado: ${firstResult},
-Segundo resultado: ${seconResult},
-Terceiro resultado: ${thirdResult},
-Quarto resultado: ${fourthNumber}
-`);
+// console.log(`
+// Primeiro resultado: ${firstResult},
+// Segundo resultado: ${seconResult},
+// Terceiro resultado: ${thirdResult},
+// Quarto resultado: ${fourthNumber}
+// `);
+
+/*Exercício 04*/
+// const firstValue = parseInt(prompt("Primeira nota: "));
+// const secondValue = parseInt(prompt("Segunda nota: "));
+
+// const result = (firstValue + secondValue)/2;
+
+// if(result >= 6){
+//     console.log(`Média semestral ${result}, Parabéns! Você foi aprovado.`);
+// };
+
+/*Exercício 05*/
+// const firstValue = parseInt(prompt("Primeira nota: "));
+// const secondValue = parseInt(prompt("Segunda nota: "));
+
+// const result = (firstValue + secondValue)/2;
+
+// if(result < 6){
+//     console.log(`Média semestral ${result}, você foi REPROVADO! Estude mais.`);
+//     return
+// };
+
+// console.log(`Média semestral ${result}, Parabéns! Você foi aprovado.`);
