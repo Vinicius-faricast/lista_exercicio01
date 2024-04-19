@@ -63,3 +63,60 @@ const prompt = require('prompt-sync')();
 // };
 
 // console.log(`Média semestral ${result}, Parabéns! Você foi aprovado.`);
+
+/*Exercício 06*/
+// const firstValue = parseInt(prompt("primeiro valor: "));
+// const secondtValue = parseInt(prompt("segundo valor: "));
+// const thirdValue = parseInt(prompt("terceiro valor: "));
+
+// const firstVerification = firstValue < (secondtValue + thirdValue);
+// const secondVerification = secondtValue < (firstValue + thirdValue);
+// const thirdVerification = thirdValue < (firstValue + secondtValue);
+
+// if(firstVerification && secondVerification && thirdVerification){
+
+//     if(firstValue === secondtValue && secondtValue === thirdValue){
+//         console.log('Triângulo eqüilátero');
+//         return;
+//     }
+
+//     if(firstValue === secondtValue || firstValue === thirdValue || secondtValue === thirdValue){
+//         console.log('Triângulo isósceles');
+//         return;
+//     }
+
+//     if(firstValue !== secondtValue || secondtValue !== thirdValue){
+//         console.log('Triângulo escaleno');
+//         return;
+//     }
+
+//     return
+// }
+// console.log('valores invalidos.')
+
+/*Exercício 07*/
+// const appleNumbers = parseInt(prompt("numero de maçãs compradas: "));
+// let result;
+
+// if(appleNumbers >= 12){
+//     result = appleNumbers * 0.25;
+// } else{
+//     result = appleNumbers * 0.30;
+// };
+
+// console.log(`O valor total das maçãs é ${result}`)
+
+/*Exercício 08*/
+// const firstValue = parseInt(prompt("Primeiro valor: "));
+// const secondValue = parseInt(prompt("Segundo valor: "));
+
+// if(firstValue !== secondValue){
+//     const result = firstValue > secondValue 
+//         ? `Valores ${secondValue}, ${firstValue}` 
+//         : `Valores ${firstValue}, ${secondValue}`;
+//     console.log(result);
+//     return
+// };
+
+// console.log('valores invalidos');
+
