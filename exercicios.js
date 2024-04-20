@@ -120,3 +120,127 @@ const prompt = require('prompt-sync')();
 
 // console.log('valores invalidos');
 
+/*Exercício 09*/
+// const appleNumbers = parseInt(prompt("coloque o codigo de origem: "));
+
+// if(appleNumbers === 1){
+//     console.log('Sul');
+// } else if(appleNumbers === 2){
+//     console.log('Norte');
+// } else if(appleNumbers === 3){
+//     console.log('Leste');
+// } else if(appleNumbers === 5 || appleNumbers === 6){
+//     console.log('Nordeste');
+// } else if( appleNumbers >= 7 && appleNumbers <= 9){
+//     console.log('Sudeste');
+// } else if(appleNumbers >= 10 && appleNumbers <= 20){
+//     console.log('Centro-oeste');
+// } else if(appleNumbers >= 25 && appleNumbers <= 50){
+//     console.log('Noroeste');
+// } else{
+//     console.log('Produto importado');
+// }
+
+/*Exercício 10*/
+// const numberInt = parseInt(prompt("Digite um numero inteiro: "));
+
+// for (let index = 0; index < 10; index++) {
+//     console.log(numberInt)
+// }
+
+/*Exercício 11*/
+// let condition = true;
+
+// while (condition) {
+//     const numberInt = parseInt(prompt("Digite um numero inteiro: "));
+    
+//     if(!condition || numberInt < 0){
+//         condition = false;
+//         break
+//     };
+
+//     console.log(numberInt % 2)
+//     if(numberInt % 2){
+//         console.log(`O valor ${numberInt} é ímpar`);
+
+//     }else {
+//         console.log(`O valor ${numberInt} é par`);
+
+//     };
+// };
+
+/*Exercício 12*/
+// for (let index = 1000; index <= 1999; index++) {
+//     if(index % 11 === 5){
+//         console.log(index);
+//     };
+    
+// };
+
+/*Exercício 13*/
+// for( let index = 0; index < 5; index++){
+//     const numberInt = parseInt(prompt("Digite um numero inteiro: "));
+
+//     for(let j = 1; j <= numberInt; j++){
+//         const result = j*numberInt;
+//         console.log(`${j} x ${numberInt} = ${result}`);
+//     };
+// };
+
+/*Exercício 14*/
+// let number = true;
+// let value = 0;
+// let count = 0;
+
+// while(number !== 0){
+//     number = Number(prompt("Digite um numero: "));
+//     value += number;
+//     count = number !== 0 ? count+1 : count;
+
+// }
+
+// const result = value / count;
+// console.log(`media aritmetrica: ${result.toFixed(2)}`);
+
+/*Exercício 15*/
+// let number = true;
+// let value = 0;
+// let count = 0;
+// let Weight = 0
+
+// while(number !== 0){
+//     number = Number(prompt("Digite um numero: "));
+//     if(number !== 0){
+//         Weight = Number(prompt("Digite seu peso: "));
+//         count += Weight;
+//         value += (number * Weight);
+//     }
+// }
+
+// const result = value / count;
+// console.log(`media ponderada: ${result.toFixed(2)}`);
+
+/*Exercício 16*/
+let count = 0;
+let number = 100;
+
+
+// while(count <= 50){
+//     let j = 1;
+//     while (j <= number) {
+//         if(number % j === 0 ){
+//             if(j === 1 || number === j){
+//                 if(number % 2 !== 0 || number === 2){
+//                     if(number % 3 !== 0 || number === 3){
+//                         if(number === j){
+//                             console.log(number);
+//                             count ++;   
+//                         }; 
+//                     }
+//                 }
+//             }
+//         }
+//         j++
+//     }
+//     number ++;
+// }
